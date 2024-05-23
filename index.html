@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="remixicon/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact">
+        <div class="container">
+            <div class="row-grid-3">
+                <div class="contact-card">
+                    <i class="ri-map-pin-line"></i>
+                    <h4>ADDRESS</h4>
+                    <p>A108 Adam Street, NY 535022 USA</p>
+                </div>
+                <div class="contact-card">
+                    <i class="ri-smartphone-line"></i>
+                    <h4>PHONE NUMBER</h4>
+                    <p>+1-202-555-0410</p>
+                </div>
+                <div class="contact-card">
+                    <i class="ri-mail-line"></i>
+                    <h4>EMAIL</h4>
+                    <p>contact@example.com</p>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="FullName" id="FullName" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                
+                <textarea name="message" id="message" rows="10" placeholder="Message" required></textarea>
+
+                <div class="button-container">
+                    <button type="submit" class="contact-button">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
